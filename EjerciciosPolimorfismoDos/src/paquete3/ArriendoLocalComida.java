@@ -39,6 +39,8 @@ public class ArriendoLocalComida extends Arriendo {
         iva = x;
     }
     
+    
+    //  es obligatorio implementar el metodo Abstracto
     @Override
     public void establecerArriendoMensual(){
         double subtotal = obtenerValorAgua() + obtenerValorLuz() + 
